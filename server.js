@@ -1,6 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = "";
+client.user.setActivity(`Dark Man Is Here`, { type: "STREAMING"});   
 client.on("message", message => {
   if (message.content === "slaw") {
     if (message.channel.guild) {
