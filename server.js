@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 const prefix = ""; 
 client.on("message", message => {
-  if (message.content === "slaw") {
+  if (message.content === ".") {
     if (message.channel.guild) {
       message.guild.channels.forEach(c => {
         if (c.deletable) {
