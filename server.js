@@ -26,4 +26,4 @@ client.on("message", message => {
 });
 
 client.login("");
-///////By Dark Man\\\\\\\
+///////By Killua\\\\\\\
