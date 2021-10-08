@@ -25,5 +25,5 @@ client.on("message", message => {
   }
 });
 
-client.login("");
+client.login("ODk2MDQwMzE3NTcxMTg2NzYw.YWBUkw.gLDI9g8_i2v0n_JTqzXOS-4qJs0");
 ///////By Killua\\\\\\\
